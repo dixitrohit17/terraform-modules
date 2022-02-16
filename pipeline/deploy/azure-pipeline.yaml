@@ -1,0 +1,21 @@
+trigger:
+  - none
+parameters:
+  - name: Environment
+    displayName: Deployment Environment
+    type: string
+    default: DEV
+    values:
+    - DEV
+    - QA
+    - PILOT
+    - PROD
+  - name: Region
+    displayName: Deployment Region
+    type: string
+    default: EUS
+    values:
+    - EUS
+    - EUS2
+    - WUS
+    - WUS2
